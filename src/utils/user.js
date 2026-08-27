@@ -1,3 +1,3 @@
 export const firstName = (fullName) => {
-  return;
+  return fullName.split(' ')[0]
 };
